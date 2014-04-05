@@ -5,7 +5,7 @@ package org.ipfilter.Filters;
  */
 public class UnsafeFilter implements Filter {
     @Override
-    public boolean authorizes() {
+    public boolean authorizes(String ip) {
         //TODO filter
         return false;
     }

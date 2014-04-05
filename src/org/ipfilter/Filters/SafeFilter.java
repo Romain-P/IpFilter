@@ -16,10 +16,10 @@ public class SafeFilter implements Filter {
     }
 
     @Override
-    public boolean authorizes() {
+    public boolean authorizes(String ip) {
         try {
             locker.lock();
-            return filter.authorizes();
+            return filter.authorizes(null);
         } catch(Exception e) {} finally {
             locker.unlock();
         }
