@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="guice-3.0-rc3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Java-Updater/libs/guice-3.0-rc3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Java-Updater/libs/aopalliance-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../Java-Updater/libs/guice-3.0-rc3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Java-Updater/libs/guice-3.0-rc3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
