@@ -2,9 +2,9 @@ package org.ipfilter.core;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
-import org.ipfilter.Filters.Filter;
-import org.ipfilter.Filters.SafeFilter;
-import org.ipfilter.Filters.UnsafeFilter;
+import org.ipfilter.core.filters.Filter;
+import org.ipfilter.core.filters.SafeFilter;
+import org.ipfilter.core.filters.UnsafeFilter;
 import org.ipfilter.injector.SafeModule;
 
 /**
