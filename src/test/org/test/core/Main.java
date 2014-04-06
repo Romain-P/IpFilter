@@ -1,6 +1,6 @@
 package test.org.test.core;
 
-import org.ipfilter.filters.Filter;
+import org.ipfilter.core.filters.Filter;
 import org.ipfilter.core.Filters;
 
 import java.net.Socket;

@@ -7,9 +7,9 @@
 package org.ipfilter.injector;
 
 import com.google.inject.AbstractModule;
-import org.ipfilter.filters.Filter;
-import org.ipfilter.filters.SafeFilter;
-import org.ipfilter.filters.UnsafeFilter;
+import org.ipfilter.core.filters.Filter;
+import org.ipfilter.core.filters.SafeFilter;
+import org.ipfilter.core.filters.UnsafeFilter;
 
 public class SafeModule extends AbstractModule {
     protected void configure() {
