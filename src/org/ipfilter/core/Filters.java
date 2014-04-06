@@ -9,9 +9,6 @@ import org.ipfilter.injector.SafeModule;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Return on 05/04/14.
- */
 public class Filters {
     public static Filter createNewUnsafe(long connections, long time, TimeUnit unit) {
         return new UnsafeFilter().with(connections, time, unit);
