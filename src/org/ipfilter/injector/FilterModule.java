@@ -11,9 +11,9 @@ import org.ipfilter.filters.Filter;
 import org.ipfilter.filters.SafeFilter;
 import org.ipfilter.filters.UnsafeFilter;
 
-public class SafeModule extends AbstractModule {
+public class FilterModule extends AbstractModule {
     protected void configure() {
-        bind(Filter.class).to(UnsafeFilter.class).asEagerSingleton();
-        bind(Filter.class).to(SafeFilter.class).asEagerSingleton();
+        bind(Filter.class).to(UnsafeFilter.class);
+        bind(Filter.class).to(SafeFilter.class);
     }
 }
