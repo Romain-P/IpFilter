@@ -6,9 +6,6 @@ import org.ipfilter.core.Filters;
 import java.net.Socket;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Return on 05/04/14.
- */
 public class Main {
     public static void main(String[] args) {
         //creating the game ^_^
