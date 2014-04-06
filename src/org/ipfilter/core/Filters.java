@@ -2,9 +2,9 @@ package org.ipfilter.core;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
-import org.ipfilter.core.filters.Filter;
-import org.ipfilter.core.filters.SafeFilter;
-import org.ipfilter.core.filters.UnsafeFilter;
+import org.ipfilter.filters.Filter;
+import org.ipfilter.filters.SafeFilter;
+import org.ipfilter.filters.UnsafeFilter;
 import org.ipfilter.injector.SafeModule;
 
 import java.util.concurrent.TimeUnit;

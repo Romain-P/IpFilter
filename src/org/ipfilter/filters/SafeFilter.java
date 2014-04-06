@@ -1,4 +1,4 @@
-package org.ipfilter.core.filters;
+package org.ipfilter.filters;
 
 import com.google.inject.Inject;
 
